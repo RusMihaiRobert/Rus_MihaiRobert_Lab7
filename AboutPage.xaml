@@ -2,17 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Rus_MihaiRobert_Lab7.AboutPage"
-             Title="AboutPage">
+             Title="Continutul listei">
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
             <Image Source="shop_list.png"
                SemanticProperties.Description="The Shopping List"
                HeightRequest="64" />
             <Label FontSize="22" FontAttributes="Bold" Text="The Shopping
-Lists" VerticalOptions="End" />
-            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
+List" VerticalOptions="End" />
+            <Label FontSize="22" Text="Mihai" VerticalOptions="End" />
         </HorizontalStackLayout>
-        <Label Text="This app will help you to manage your shopping lists" />
+        <Label Text="Lista mea de cumparaturi:" />
+        <Label Text="Apa" />
+        <Label Text="Suc" />
+        <Label Text="Cafea" />
+        <Label Text="Lapte" />
+        <Label Text="Cereale" />
+        <Label Text="Fructe: Mere, Banane, Capsuni si Struguri." />
+        <Label Text="Rola hartie pentru bucatarie" />
+        <Label Text="Sapun lichid" />
+
+
+
+        <Label FontSize="20" FontAttributes="Bold" Text="Spor la cumparaturi!" />
 
     </VerticalStackLayout>
 </ContentPage>

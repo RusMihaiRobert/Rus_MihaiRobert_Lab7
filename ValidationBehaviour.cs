@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rus_MihaiRobert_Lab7
 {
-    class ValidationBehaviour : Behavior<Editor>
+    public class ValidationBehaviour : Behavior<Editor>
     {
         protected override void OnAttachedTo(Editor entry)
         {

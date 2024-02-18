@@ -19,6 +19,9 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+
+            if (count == 10)
+                CounterBtn.Text = "Ai pierdut 5 secunde din viata";
         }
     }
 

@@ -10,15 +10,7 @@
         <Editor Placeholder="Enter the description of the shopping list"
               Text="{Binding Description}"
               HeightRequest="50" />
-         <Editor.Behaviors>
-
-
-            <local:ValidationBehaviour />
-
-
-         </Editor.Behaviors>
-
-       
+         
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />

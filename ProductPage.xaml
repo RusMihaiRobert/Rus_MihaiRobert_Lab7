@@ -36,7 +36,8 @@ MaximumWidthRequest="200"
  Clicked="OnAddButtonClicked" />
             </Grid>
         </StackLayout>
-    </ContentPage.Content>
+    </ContentPage.Content>
+
 
 
 
